@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, li, ol, div, span, tr, th, td{
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+}
+
+a{
+  color: rgb(54,53,55);
+}
+a:hover{
+  color: #000;
+}
+
+.main-menu{
+  display: inline-block;
+  list-style: outside none;
+  font-size: 2em;
+  float: right;
+  padding-top: 1em;
+
+}
+
+#logo{
+  padding:1em 0;
+}
+
+#topmenu{
+  background-color: rgba(255,255,255,0.7);
+  position: fixed;
+  z-index: 2;
+
+  border-bottom: 1px solid rgba(54,53,55,0.4);
+  border-top: 1px solid rgba(209,245,190,0.4);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+}
+
+#slider{
+  width:auto;
+  height:100%;
+  padding: 0;
+  position: fixed;
+}
+
+ul{
+  margin-left: 0;
+}
+
+#bodycopy{
+  position: relative;
+  margin-top: 20%;
+}
+
+#blurb{
+  font-size: 18px;
+  color: #cad8de;
+  text-shadow: 3px 2px rgb(54,53,55);
+
+}
+
+#blurb h2{
+  text-align: center;
+  margin-bottom:1em;
+}

@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+	  <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon" />
+  	<title id="title" >Bedrock Cafe</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+
+
+  <body>
+    <header>
+      <div class="large-12 columns" id="topmenu">
+      <!-- logo top left, menu bar with shadow -->
+        <div class="large-3 medium-6 small-6 columns">
+          <img src="img/BedrockLogo_s_b_a.png" id="logo"/>
+        </div>
+        <div class="large-9 medium-6 small-6 columns">
+          <ul class="main-menu">
+            <li><a href="/">Download our Menu</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div id="slider">
+       <ul ><!--class="bxslider"> -->
+        <li><img src="img/coffee.jpg" /></li>
+         <!-- <li><img src="img/breakfast.jpg" /></li>
+        <li><img src="img/salad.jpg" /></li> -->
+      </ul>
+    </div>
+
+    <div class="row">
+      <div class="large-6 small-centered columns" id="bodycopy">
+        <div id="blurb">
+          <h2>Our mission our passion</h2>
+          <p>Bedrock Real Food Kitchen is based within DW Fitness Club in Poole Dorset. Serving the members with awesome coffee and tailored unique selections of healthy food options.</p>
+          <p>Since we launched in January this year, we have brought a new lease of life to the club and it&rsquo;s members are loving the taste of fresh roasted bean coffee, using the latest espresso machines and grinders to provide that perfect blend.</p>
+          <p>We also serve a large selection of teas, oven baked jacket potatoes, fresh salads, smoothies, and a great selection of supplements and snacks.</p>
+          <p>Pop in and see us soon!</p>
+          <p>p.s. Unfortunately we are currently only open to the members of the club, although they would prefer to keep a great cafe to themselves we are looking a ways to open to the public later this year. Watch this space!</p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+<script>
+  $(document).ready(function(){
+    $('.bxslider').bxSlider({
+      pager: false,
+      auto: true,
+      mode: 'fade',
+      speed: 900,
+      pause: 7000
+    });
+  });
+</script>
+</html>
